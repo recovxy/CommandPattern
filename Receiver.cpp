@@ -2,12 +2,15 @@
 #include <iostream>
 using namespace std;
 
-Receiver::Receiver() {
+Receiver::Receiver()
+{
 }
 
-Receiver::~Receiver() {
+Receiver::~Receiver() 
+{
 }
 
-void Receiver::action() {
+void Receiver::action() 
+{
 	cout << "receiver action." << endl;
 }
